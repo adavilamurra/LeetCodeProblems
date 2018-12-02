@@ -56,7 +56,7 @@ Thinking of the goal and trying out the different strategies is very helpful. Tr
 
 #### Work some small instances by hand
 *Input:* words = ["xyzz", "xxxy", "xyyy", "errr", "olll"], pattern = "abbb"
-*Output: ["xyyy", "errr", "olll"]
+*Output:* ["xyyy", "errr", "olll"]
 
 #### Write down what you did
 I compared each word from the list of words with the pattern. 
@@ -81,13 +81,13 @@ Look at the code in the file: problem.java
 
 #### Run test cases
 *Input:* words = [], pattern = "ab"
-*Output: []
+*Output:* []
 
 *Input:* words = ["xx"], pattern = "ab"
-*Output: []
+*Output:* []
 
 *Input:* words = ["xyzz", "xxxy", "xyyy", "errr", "olll"], pattern = "abbb"
-*Output: ["xyyy", "errr", "olll"]
+*Output:* ["xyyy", "errr", "olll"]
 
 #### Debug failed test cases
 The list of words should have a max of 50 words, which means that the code should handle lists that are larger than that.
