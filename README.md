@@ -16,11 +16,13 @@ Anticipate outcomes and act
 Look and learn
 ```
 
-### IDEAL
+### Duke's 7 Steps
 ```
-Identify the problem
-Define your goal
-Explore possible strategies
-Anticipate outcomes and act
-Look and learn
+Work some small instances by hand
+Write down what you did
+Find patterns
+Check by hand
+Translate to code
+Run test cases
+Debug failed test cases
 ```
