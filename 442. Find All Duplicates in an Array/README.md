@@ -49,7 +49,7 @@ Thinking of the goal and trying out the different strategies is very helpful. Tr
 
 #### Work some small instances by hand
 *Input:* nums = [1,2,3,4,4,2]
-*Output:* [2,3]
+*Output:* [2,4]
 
 #### Write down what you did
 I iterated through the list of integers and kept a count of how many times each integer appeared. 
@@ -79,7 +79,7 @@ Look at the code in the file: problem.java
 *Output:* []
 
 *Input:* nums = [1,2,3,4,4,2]
-*Output:* [2,3]
+*Output:* [2,4]
 
 #### Debug failed test cases
 I would have to check if an element can appear three times, because with my code, when I see that an element appeared twice, I added to the list. This means that if an element appears three times, it would be added to the list when I see it for the second time, and this would be wrong. We need to handle this.
